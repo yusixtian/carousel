@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carousel using HTML, CSS and JAVASCRIPT</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="header"></div>
+	<div class="main">
+		<!-- Slideshow container -->
+		<div class="slideshow-container">
+			<div class="slideshow-inner">
+				<div class="slide animate">
+					<img src="img/slider1.jpg" style="width:100%">
+					<p class="caption">Slider 1</p>
+				</div>
+				<div class="slide animate">
+					<img src="img/slider2.jpg" style="width:100%">
+					<p class="caption">Slider 2</p>
+				</div>
+				<div class="slide animate">
+					<img src="img/slider3.jpg" style="width:100%">
+					<p class="caption">Slider 3</p>
+				</div>
+				<div class="slide animate">
+					<img src="img/slider4.jpg" style="width:100%">
+					<p class="caption">Slider 4</p>
+				</div>
+				<div class="slide animate">
+					<img src="img/slider5.jpg" style="width:100%">
+					<p class="caption">Slider 5</p>
+				</div>
+				<div class="slide animate">
+					<img src="img/slider5.jpg" style="width:100%">
+					<p class="caption">Slider 5</p>
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<div class="navigation-container">
+					<span class="navigation-icon" onclick="currentSlide(1)"></span>
+					<span class="navigation-icon" onclick="currentSlide(2)"></span>
+					<span class="navigation-icon" onclick="currentSlide(3)"></span>
+					<span class="navigation-icon" onclick="currentSlide(4)"></span>
+					<span class="navigation-icon" onclick="currentSlide(5)"></span>
+					<span class="navigation-icon" onclick="currentSlide(6)"></span>
+				</div>
+			</div>
+		</div>
+		<br>
+
+
+	</div>
+	<div class="footer"></div>
+	<script src="js/index.js"></script>
+</body>
+</html>
